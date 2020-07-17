@@ -34,18 +34,6 @@ loveBtn.on("click", () => {
   console.log(theGif);
   createElement(theGif);
 });
-// $.ajax({
-//   url: queryURLArr[ranNum],
-//   method: "GET",
-// }).then(function (response) {
-//   console.log(response.data);
-//   //   newGif.attr("src", response.data[0].images.original.url);
-//   let theGif = response.data[0].images.original.url;
-//   loveBtn.on("click", () => {
-//     console.log(theGif);
-//     createElement(theGif);
-//   });
-// });
 
 imgOne.on("click", () => {
   alert(
