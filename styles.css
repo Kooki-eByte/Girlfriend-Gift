@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./Pics/love-3061483_1920.jpg);
+}
+
+h1 {
+  text-align: center;
+  background-color: #e4ad7b;
+  color: #3e4c61;
+  width: auto;
+}
+
+.column1 img {
+  width: 500px;
+  height: 500px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.column2 img {
+  width: 500px;
+  height: 500px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button-row {
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.gif-row {
+  justify-content: center;
+}
+
+.loveBtn {
+  border-radius: 25px;
+  background-color: #06aed5;
+  color: white;
+  width: 10%;
+}
+
+.loveBtn:hover {
+  background-color: #0090b1;
+}
