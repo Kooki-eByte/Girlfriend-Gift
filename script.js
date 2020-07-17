@@ -28,18 +28,24 @@ function createElement(gif) {
   }
 }
 
-$.ajax({
-  url: queryURLArr[ranNum],
-  method: "GET",
-}).then(function (response) {
-  console.log(response.data);
-  //   newGif.attr("src", response.data[0].images.original.url);
-  let theGif = response.data[0].images.original.url;
-  loveBtn.on("click", () => {
-    console.log(theGif);
-    createElement(theGif);
-  });
+loveBtn.on("click", () => {
+  let theGif =
+    "https://media1.giphy.com/media/yc2pHdAoxVOrJ2m5Ha/giphy.gif?cid=5c9d8c60nw0jpk86zbnsi4kbfn16s9nj60ff6fiwjbebxipy&rid=giphy.gif";
+  console.log(theGif);
+  createElement(theGif);
 });
+// $.ajax({
+//   url: queryURLArr[ranNum],
+//   method: "GET",
+// }).then(function (response) {
+//   console.log(response.data);
+//   //   newGif.attr("src", response.data[0].images.original.url);
+//   let theGif = response.data[0].images.original.url;
+//   loveBtn.on("click", () => {
+//     console.log(theGif);
+//     createElement(theGif);
+//   });
+// });
 
 imgOne.on("click", () => {
   alert(
